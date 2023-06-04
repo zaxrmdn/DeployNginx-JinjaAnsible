@@ -9,7 +9,11 @@ Open git scm (you can install it in the linux terminal, or install git on other 
 
 ![This is an image](./images/git-bash.png)
 
-Type the command git clone (repository link) to get the source code to your local computer
+Type the command git clone "repository link" to get the source code to your local computer
 ```
 $ git clone https://github.com/zaxrmdn/DeployNginx-JinjaAnsible.git
 ```
+
+Check if the code is already in local storage
+
+![This is an image](./images/code-exists.png)
