@@ -28,6 +28,5 @@ Go to the directory code
 The files looks like this below
 ![This is an image](./images/carbon-(11).png)
 
-The files looks like this below
-![This is an image](./images/carbon-(12).png)
-
+Dan coba jalankan playbook seperti berikut untuk mencobanya
+![poncol](./images/carbon-(13).png)
