@@ -28,7 +28,7 @@ Go to the directory code
 The files looks like this below
 ![This is an image](./images/carbon-(11).png)
 
-Dan coba jalankan playbook seperti berikut untuk mencobanya
+To trying the playbook, running this command below
 ```
 $ ansible-playbook -i inventory playbook/web-pub.yml
 ```
