@@ -26,8 +26,10 @@
       copy:
         src: /content/web-content.j2
         dest: /var/www/localhost/index.html
+      notify: Restarted nginx
 
-    - name: Restart Nginx
+  handlers:
+    - name: Restarted nginx
       service:
         name: nginx
         state: restarted
