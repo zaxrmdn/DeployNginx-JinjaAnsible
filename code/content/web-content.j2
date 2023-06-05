@@ -1,0 +1,13 @@
+<html>
+<h1><center> {{ ansible_managed }} </center></h1>
+
+<h2><center>
+
+Server : {{ ansible_hostname }}
+<p></p>
+Pakai OS : {{ ansible_distribution }}
+<p></p>
+Alamat IP: {{ ansible_all_ipv4_addresses }}
+<p></p>
+Mesin ID: {{ ansible_machine_id }}
+</html>
