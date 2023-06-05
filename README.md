@@ -29,4 +29,6 @@ The files looks like this below
 ![This is an image](./images/carbon-(11).png)
 
 Dan coba jalankan playbook seperti berikut untuk mencobanya
-![poncol](./images/carbon-(13).png)
+```
+$ ansible-playbook -i inventory playbook/web-pub.yml
+```
