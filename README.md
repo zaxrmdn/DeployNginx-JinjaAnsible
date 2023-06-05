@@ -22,5 +22,5 @@ Check if the code is already in local storage
 ## Open Resource Lab
 
 Go to the directory code
-![This is an image](./images/carbon%20(10)).png
+![This is an image](./images/carbon%20(10).png)
 
