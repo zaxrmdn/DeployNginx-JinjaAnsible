@@ -17,3 +17,10 @@ $ git clone https://github.com/zaxrmdn/DeployNginx-JinjaAnsible.git
 Check if the code is already in local storage
 
 ![This is an image](./images/code-exists.png)
+
+---
+## Open Resource Lab
+
+Go to the directory code
+![This is an image](images/carbon%20(10)).png
+
