@@ -9,7 +9,7 @@
 
     - name: Templated
       template:
-        src: content/web-content.j2
+        src: ../content/web-content.j2
         dest: /var/www/html/index.html
       notify: Restarted nginx
 
