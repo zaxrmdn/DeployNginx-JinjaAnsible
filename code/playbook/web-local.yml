@@ -1,0 +1,33 @@
+---
+- name: Install Nginx
+  hosts: host
+  vars:
+    nginx_sites:
+      - server_name: localhost
+        root_path: /var/www/localhost
+
+  tasks:
+    - name: Install Nginx
+      apt:
+        name: nginx
+        state: latest
+
+    - name: Copy Nginx configuration
+      template:
+        src: /configuration/nginx.conf.j2
+        dest: /etc/nginx/sites-available/{{ item.server_name }}
+        mode: 0644
+      with_items: "{{ nginx_sites }}"
+      notify:
+        - Enable site
+        - Create directory localhost
+
+    - name: Copy index html
+      copy:
+        src: /content/web-content.j2
+        dest: /var/www/localhost/index.html
+
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
