@@ -14,7 +14,7 @@
 
     - name: Copy Nginx configuration
       template:
-        src: configuration/nginx.conf.j2
+        src: config/nginx.conf.j2
         dest: /etc/nginx/sites-available/{{ item.server_name }}
         mode: 0644
       with_items: "{{ nginx_sites }}"
